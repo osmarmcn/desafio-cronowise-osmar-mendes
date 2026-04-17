@@ -1,0 +1,7 @@
+Você tem uma lista com 1 milhão de registros. Precisa verificar se um CPF específico já existe nessa lista. Você faria isso com:
+
+(a) Percorrer a lista do início ao fim comparando cada item
+(b) Transformar a lista em um conjunto (set/HashSet) e usar busca direta
+Explique em 3–5 linhas por que uma abordagem é melhor que a outra e em que situação você escolheria cada uma.
+
+reposta: Para tornar a busca mais rapida a melhor forma seria usar o "set/HashSet", pois na ha necessidade de pecorrer todo o array, como ele guarda valores sem repetir e permite buscar muito rápido. Sendo a alternativa "b".

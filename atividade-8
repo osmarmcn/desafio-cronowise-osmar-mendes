@@ -1,0 +1,15 @@
+
+Após o código abaixo ser executado, qual será o valor de status e tentativas?
+
+SolicitacaoCredito s = new SolicitacaoCredito("req-001", "hash-abc");
+s.registrarTentativa(false);
+s.registrarTentativa(false);
+System.out.println(s.podeRetentar()); // O que imprime?
+s.registrarTentativa(false);
+System.out.println(s.podeRetentar()); // O que imprime agora?
+• O que cada println imprime e por quê?
+• Qual o estado final (status e tentativas) após as três chamadas?
+
+reposta:
+primeiro print imprime verdadeiro, pois ainda tem tentativas, segundo print imprime falso, pois nao tem mais tentativas e o status mudou para "ERRO_PERMANENTE".
+o estado final seria status: "ERRO_PERMANENTE" e tentativas: 0

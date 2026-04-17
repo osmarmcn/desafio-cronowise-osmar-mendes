@@ -1,0 +1,4 @@
+Se você precisasse adicionar um timeout máximo de 30 segundos para toda a operação (incluindo todas as tentativas e esperas), como faria? Não precisa escrever o código completo — descreva a abordagem em texto ou pseudocódigo.
+
+resposta:
+provavemnete usaria alguma biblioteca que facilitaria a cordenção do tempo e melhoraria o codigo.

@@ -1,0 +1,14 @@
+
+Simule mentalmente o que acontece quando consultar_credito("abc123") é chamado e o serviço externo retorna um ConsultaError do tipo TEMPORARY nas 3 primeiras chamadas.
+
+• Quantas vezes a função é chamada no total?
+• Quais são os tempos de espera entre cada tentativa?
+• Qual é o retorno final?
+
+reposta: 
+São chamadas ate 3 vezes no total.
+A espera é de 2s por tentativa.
+retorno sendo este:
+{"status": "ERRO_TEMPORARIO_ESGOTADO", "dados": None}.
+
+

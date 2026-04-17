@@ -1,0 +1,5 @@
+
+Há um problema de design nesta implementação que pode causar falhas em produção em cenários de alta carga. Você consegue identificar? Descreva o problema e como você corrigiria.
+
+resposta:
+ o que vejo que pode ser um problema é questão da função ser chamada varias vezes ao mesmo tempo, fazendo acumulo de execução deixando cada vez mais lento o procerdimento. Uma forma de solução seria usar um for em vez de ser uma função.

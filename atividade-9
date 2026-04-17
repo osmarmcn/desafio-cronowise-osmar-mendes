@@ -1,0 +1,11 @@
+
+Perguntas:
+
+(a) O que acontece na tela quando o componente é renderizado pela primeira vez, antes de a requisição completar?
+(b) Se tenantId mudar de "tenant-a" para "tenant-b" enquanto o componente está na tela, o que acontece? Por quê?
+(c) Há um problema neste componente que pode causar um bug visual. Você consegue identificar?
+
+respostas:
+a - aparece so "Carregando..."
+b - como foi alterado, atualiza a tela, por fazer uma no requisição com o tenant novo.
+c - se houver a troca do tenant o loading não reseta, pode mostrar os dados incorretos.

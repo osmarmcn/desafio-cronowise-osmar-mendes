@@ -1,0 +1,5 @@
+
+Descreva em até 5 linhas o comportamento geral desta função. O que ela recebe, o que tenta fazer, e o que retorna em cada cenário possível?
+
+reposta:
+A função consultar_credito recebe um CPF (hash) e tenta consultar um serviço externo para obter dados de crédito. Caso a consulta seja bem sucedida, vai apresentar o status "ok". Ja em caso de erro permanente, será retornado um erro sem novas tentativas. Sendo um erro temporario, tem a possibilidade 3 novas tentativas, tendo que agurdar o tempo, caso atinja o limite, retorna erro temporário esgotado. Erros inesperados são lançados e interrompem a execução.
